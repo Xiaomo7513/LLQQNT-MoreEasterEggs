@@ -20,7 +20,8 @@
         "darwin"
     ],
     "injects": {
-        "renderer": "./src/renderer.js"
+        "renderer": "./src/renderer.js",
+        "main": "./src/main.js"
     },
     "repository": {
         "repo": "Xiaomo7513/LLQQNT-MoreEasterEggs",

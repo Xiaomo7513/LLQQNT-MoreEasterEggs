@@ -40,8 +40,8 @@ async function watchURLHash(callback) {
 // 加载彩蛋
 async function loadEasterEggs(currentHash) {
     const easter_eggs = [
-        "./dinnerbone.js",
-        "./jeb_.js"
+        "./easter_eggs/dinnerbone.js",
+        "./easter_eggs/jeb_.js"
     ];
     for (const easter_egg of easter_eggs) {
         const { hash, selector, trigger } = await import(easter_egg);
