@@ -1,0 +1,29 @@
+{
+    "$schema": "./manifest_schema.json",
+    "manifest_version": 4,
+    "type": "extension",
+    "name": "More Easter Eggs",
+    "slug": "more-easter-eggs",
+    "description": "为 LiteLoaderQQNT 添加更多彩蛋",
+    "version": "0.1.0",
+    "icon": "./icon.svg",
+    "thumb": "./icon.svg",
+    "authors": [
+        {
+            "name": "Xiaomo7513",
+            "link": "https://github.com/Xiaomo7513"
+        }
+    ],
+    "platform": [
+        "win32",
+        "linux",
+        "darwin"
+    ],
+    "injects": {
+        "renderer": "./src/renderer.js"
+    },
+    "repository": {
+        "repo": "Xiaomo7513/LLQQNT-MoreEasterEggs",
+        "branch": "main"
+    }
+}
